@@ -228,9 +228,9 @@ form button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1023px) {
     .front_card,.front_card img,.back_card,.back_card img{
-        width:375px;
+        width:300px;
     }
     
     .card_container .card_logo{
@@ -247,7 +247,7 @@ form button{
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:767px) {
     .container{
         flex-direction: column;
     }
